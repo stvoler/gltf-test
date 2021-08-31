@@ -102,6 +102,8 @@ header {
   grid-template-columns: 81px 1fr 1fr auto;
   text-transform: uppercase;
   z-index: 1;
+  mix-blend-mode: difference;
+  filter: invert(1);
 
   .trigger-input{
     display: block;
@@ -181,6 +183,10 @@ a {
     color: var(--color-link-hover);
     outline: none;
   }
+}
+
+main{
+  background-color: var(--color-bg);
 }
 
 .items {
